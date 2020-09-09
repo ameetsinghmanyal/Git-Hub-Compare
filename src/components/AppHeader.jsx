@@ -115,7 +115,7 @@ function AppHeader(props) {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        padding: "2vw",
+        padding: "1vh 2vw",
       }}
     >
       <div

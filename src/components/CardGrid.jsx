@@ -40,7 +40,7 @@ function CardGrid(props) {
     >
       {!loading ? (
         userData.map((user) => (
-          <Col span={8} key={user.id}>
+          <Col span={8} key={user.id} style={{padding:'1rem', minHeight:0}}>
             <ProfileCard userData={user} />
           </Col>
         ))
